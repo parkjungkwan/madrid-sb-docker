@@ -5,7 +5,7 @@ import lombok.Data;
 import javax.persistence.Id;
 
 @Data
-public final class Calculator {
+public class Calculator {
     @Id
     private long calculatorId;
     private int num1;
